@@ -1,8 +1,12 @@
-
+import {ListaDeNotas} from "./components/ListaDeNotas";
+import {FormularioCadastro} from "./components/FormularioCadastro";
 
 function App() {
   return (
-      <h1>Meu App React</h1>
+      <section>
+          <FormularioCadastro/>
+          <ListaDeNotas/>
+      </section>
   );
 }
 
